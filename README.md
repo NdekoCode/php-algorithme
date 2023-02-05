@@ -115,3 +115,33 @@ B ← "12"
 C ← A & B
 Fin
 ```
+
+## Partie 2: Lecture et Ecriture
+
+1. Exercice 2.1
+Quel résultat produit le programme suivant ?
+
+```{ALGO}
+
+Variables val, double numériques
+Début
+Val ← 231
+Double ← Val * 2
+Ecrire Val
+Ecrire Double
+Fin
+```
+
+2. Exercice 2.2
+Ecrire un programme qui demande un nombre à l’utilisateur, puis qui calcule et affiche le
+carré de ce nombre
+
+3. Exercice 2.3
+Ecrire un programme qui lit le prix HT d’un article, le nombre d’articles et le taux de
+TVA, et qui fournit le prix total TTC correspondant. Faire en sorte que des libellés
+apparaissent clairement.
+
+4. Exercice 2.4
+Ecrire un algorithme utilisant des variables de type chaîne de caractères, et affichant
+quatre variantes possibles de la célèbre « belle marquise, vos beaux yeux me font
+mourir d’amour ». On ne se soucie pas de la ponctuation, ni des majuscules.

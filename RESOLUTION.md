@@ -1,6 +1,6 @@
 # Resolution des Algorithmes
 
-/** I. Les variables */
+## Partie 1: Les variables
 
 01. Exercice 1
 
@@ -43,3 +43,20 @@ B: 2
 ```
 
 Non il n'y a pas echange de valeur mais ecrasement d'une de deux valeurs et meme si on inverse, une de deux variable va ecraser la valeur de l'autre.
+
+8. Exercice 8
+
+```{ALGO}
+A+B:"42312" // Va produire une concatenation  qui est :"42312"
+```
+
+Mais en `PHP` cela va produire une addition car PHP va faire à tout pris une conversion en nombre. et donc la valeur sera A+B: `435`.
+
+9. Exercice 9
+A= "423"
+B= "12"
+C = A & B : Est une concatenation, en PHP il se traduit par un point `.` donc le resultat sera "42312"
+
+## Partie 2: Lecture et Ecriture
+
+1. L'alogorithme assigne une valeur à une variable puis calcul le le double de cette variable ensuite il affiche cette variable puis son double.
