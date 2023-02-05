@@ -5,16 +5,22 @@
 1. Exercice 1.1
 Quelles seront les valeurs des variables A et B après exécution des instructions
 suivantes ?
+
+```{ALGO}
 Variables A, B en Entier
 Début
 A ← 1
 B ← A + 3
 A ← 3
 Fin
+```
 
 2. Exercice 1.2
 Quelles seront les valeurs des variables A, B et C après exécution des instructions
 suivantes ?
+
+```{ALGO}
+
 Variables A, B, C en Entier
 Début
 A ← 5
@@ -23,10 +29,14 @@ C ← A + B
 A ← 2
 C ← B – A
 Fin
+```
 
 3. Exercice 1.3
 Quelles seront les valeurs des variables A et B après exécution des instructions
 suivantes ?
+
+```{ALGO}
+
 Variables A, B en Entier
 Début
 A ← 5
@@ -34,10 +44,14 @@ B ← A + 4
 A ← A + 1
 B ← A – 4
 Fin
+```
 
 4. Exercice 1.4
 Quelles seront les valeurs des variables A, B et C après exécution des instructions
 suivantes ?
+
+```{ALGO}
+
 Variables A, B, C en Entier
 Début
 A ← 3
@@ -46,10 +60,13 @@ C ← A + B
 B ← A + B
 A ← C
 Fin
+```
 
 5. Exercice 1.5
 Quelles seront les valeurs des variables A et B après exécution des instructions
 suivantes ?
+
+```{ALGO}
 Variables A, B en Entier
 Début
 A ← 5
@@ -57,6 +74,8 @@ B ← 2
 A ← B
 B ← A
 Fin
+```
+
 Moralité : les deux dernières instructions permettent-elles d’échanger les deux valeurs
 de B et A ? Si l’on inverse les deux dernières instructions, cela change-t-il quelque
 chose ?
@@ -73,18 +92,26 @@ algorithme transférant à B la valeur de A, à C la valeur de B et à A la vale
 
 8. Exercice 1.8
 Que produit l’algorithme suivant ?
+
+```{ALGO}
+
 Variables A, B, C en Caractères
 Début
 A ← "423"
 B ← "12"
 C ← A + B
 Fin
+```
 
 9. Exercice 1.9
 Que produit l’algorithme suivant ?
+
+```{ALGO}
+
 Variables A, B, C en Caractères
 Début
 A ← "423"
 B ← "12"
 C ← A & B
 Fin
+```
