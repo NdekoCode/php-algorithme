@@ -265,6 +265,79 @@ Il n'est sans doute pas inutile de rappeler rapidement que le mois de février c
 jours, sauf si l’année est bissextile, auquel cas il en compte 29. L’année est bissextile si
 elle est divisible par quatre. Toutefois, les années divisibles par 100 ne sont pas
 bissextiles, mais les années divisibles par 400 le sont. Ouf !
-Un dernier petit détail : vous ne savez pas, pour l’instant, exprimer correctement en
-pseudo-code l’idée qu’un nombre A est divisible par un nombre B. Aussi, vous vous
-contenterez d’écrire en bons télégraphistes que A divisible par B se dit « A dp B ».
+
+## PARTIE 5: Les boucles
+
+1. Exercice 5.1
+Ecrire un algorithme qui demande à l’utilisateur un nombre compris entre 1 et 3 jusqu’à
+ce que la réponse convienne.
+2. Exercice 5.2
+Ecrire un algorithme qui demande un nombre compris entre 10 et 20, jusqu’à ce que la
+réponse convienne. En cas de réponse supérieure à 20, on fera apparaître un message :
+« Plus petit ! », et inversement, « Plus grand ! » si le nombre est inférieur à 10.
+3. Exercice 5.3
+Ecrire un algorithme qui demande un nombre de départ, et qui ensuite affiche les dix
+nombres suivants. Par exemple, si l'utilisateur entre le nombre 17, le programme
+affichera les nombres de 18 à 27.
+4. Exercice 5.4
+Ecrire un algorithme qui demande un nombre de départ, et qui ensuite écrit la table de
+multiplication de ce nombre, présentée comme suit (cas où l'utilisateur entre le nombre 7) :
+
+```{ALGO}
+Table de 7 :
+7x1=7
+7 x 2 = 14
+7 x 3 = 21
+…
+7 x 10 = 70
+```
+
+5. Exercice 5.5
+Ecrire un algorithme qui demande un nombre de départ, et qui calcule la somme des
+entiers jusqu’à ce nombre. Par exemple, si l’on entre 5, le programme doit calculer :
+`1 + 2 + 3 + 4 + 5 = 15`
+NB : on souhaite afficher uniquement le résultat, pas la décomposition du calcul.
+6. Exercice 5.6
+Ecrire un algorithme qui demande un nombre de départ, et qui calcule sa factorielle.
+NB : la factorielle de 8, notée 8 !, vaut
+`1x2x3x4x5x6x7x8`
+7. Exercice 5.7
+Ecrire un algorithme qui demande successivement 20 nombres à l’utilisateur, et qui lui
+dise ensuite quel était le plus grand parmi ces 20 nombres :
+Entrez le nombre numéro 1 : 12
+Entrez le nombre numéro 2 : 14
+etc.
+Entrez le nombre numéro 20 : 6
+Le plus grand de ces nombres est : 14
+Modifiez ensuite l’algorithme pour que le programme affiche de surcroît en quelle
+position avait été saisie ce nombre :
+C’était le nombre numéro 2
+8. Exercice 5.8
+Réécrire l’algorithme précédent, mais cette fois-ci on ne connaît pas d’avance combien
+l’utilisateur souhaite saisir de nombres. La saisie des nombres s’arrête lorsque
+l’utilisateur entre un zéro.
+9. Exercice 5.9
+Lire la suite des prix (en euros entiers et terminée par zéro) des achats d’un client.
+Calculer la somme qu’il doit, lire la somme qu’il paye, et simuler la remise de la monnaie
+en affichant les textes "10 Euros", "5 Euros" et "1 Euro" autant de fois qu’il y a de
+coupures de chaque sorte à rendre
+10. Exercice 5.10
+Écrire un algorithme qui permette de connaître ses chances de gagner au tiercé, quarté,
+quinté et autres impôts volontaires.
+On demande à l’utilisateur le nombre de chevaux partants, et le nombre de chevaux
+joués. Les deux messages affichés devront être :
+Dans l’ordre : une chance sur X de gagner
+Dans le désordre : une chance sur Y de gagner
+X et Y nous sont donnés par la formule suivante, si n est le nombre de chevaux partants
+et p le nombre de chevaux joués (on rappelle que le signe ! signifie "factorielle", comme
+dans l'exercice 5.6 ci-dessus) :
+
+```{ALGO}
+X = n ! / (n - p) !
+Y = n ! / (p ! * (n – p) !)
+```
+
+NB : cet algorithme peut être écrit d’une manière simple, mais relativement peu
+performante. Ses performances peuvent être singulièrement augmentées par une petite
+astuce. Vous commencerez par écrire la manière la plus simple, puis vous identifierez le
+problème, et écrirez une deuxième version permettant de le résoudre.
