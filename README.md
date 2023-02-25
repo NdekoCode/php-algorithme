@@ -341,3 +341,15 @@ NB : cet algorithme peut être écrit d’une manière simple, mais relativement
 performante. Ses performances peuvent être singulièrement augmentées par une petite
 astuce. Vous commencerez par écrire la manière la plus simple, puis vous identifierez le
 problème, et écrirez une deuxième version permettant de le résoudre.
+
+### PARTIE 6: LES TABLEAUX
+
+1. Exercice 6.1
+Ecrire un algorithme qui déclare et remplisse un tableau de 7 valeurs numériques en les
+mettant toutes à zéro.
+2. Exercice 6.2
+Ecrire un algorithme qui déclare et remplisse un tableau contenant les six voyelles de
+l’alphabet latin.
+3. Exercice 6.3
+Ecrire un algorithme qui déclare un tableau de 9 notes, dont on fait ensuite saisir les
+valeurs par l’utilisateur.
