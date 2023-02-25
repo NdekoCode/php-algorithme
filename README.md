@@ -353,3 +353,97 @@ l’alphabet latin.
 3. Exercice 6.3
 Ecrire un algorithme qui déclare un tableau de 9 notes, dont on fait ensuite saisir les
 valeurs par l’utilisateur.
+4. Exercice 6.4
+Que produit l’algorithme suivant ?
+
+```{ALGO}
+Tableau Nb(5) en Entier
+Variable i en Entier
+Début
+Pour i ← 0 à 5
+Nb(i) ← i * i
+i suivant
+Pour i ← 0 à 5
+Ecrire Nb(i)
+i suivant
+Fin
+```
+
+Peut-on simplifier cet algorithme avec le même résultat ?
+5. Exercice 6.5
+Que produit l’algorithme suivant ?
+
+```{ALGO}
+Tableau N(6) en Entier
+Variables i, k en Entier
+Début
+N(0) ← 1
+Pour k ← 1 à 6
+N(k) ← N(k-1) + 2
+k Suivant
+Pour i ← 0 à 6
+Ecrire N(i)
+i suivant
+Fin
+```
+
+Peut-on simplifier cet algorithme avec le même résultat ?
+6. Exercice 6.6
+Que produit l’algorithme suivant ?
+
+```{ALGO}
+Tableau Suite(7) en Entier
+Variable i en Entier
+Début
+Suite(0) ← 1
+Suite(1) ← 1
+Pour i ← 2 à 7
+Suite(i) ← Suite(i-1) + Suite(i-2)
+i suivant
+Pour i ← 0 à 7
+Ecrire Suite(i)
+i suivant
+Fin
+```
+
+7. Exercice 6.7
+Ecrivez la fin de l’algorithme 6.3 afin que le calcul de la moyenne des notes soit effectué
+et affiché à l’écran.
+8. Exercice 6.8
+Ecrivez un algorithme permettant à l’utilisateur de saisir un nombre quelconque de
+valeurs, qui devront être stockées dans un tableau. L’utilisateur doit donc commencer
+par entrer le nombre de valeurs qu’il compte saisir. Il effectuera ensuite cette saisie.
+Enfin, une fois la saisie terminée, le programme affichera le nombre de valeurs
+négatives et le nombre de valeurs positives.
+9. Exercice 6.9
+Ecrivez un algorithme calculant la somme des valeurs d’un tableau (on suppose que le
+tableau a été préalablement saisi).
+10. Exercice 6.10
+Ecrivez un algorithme constituant un tableau, à partir de deux tableaux de même
+longueur préalablement saisis. Le nouveau tableau sera la somme des éléments des deux
+tableaux de départ.
+Tableau 1 :`4|8|7|9|1|5|4|6`
+Tableau 2 :`7|6|5|2|1|3|7|4`
+Tableau à constituer: `11|14|12|11|2|8|11|10`
+11. Exercice 6.11
+Toujours à partir de deux tableaux précédemment saisis, écrivez un algorithme qui
+calcule le schtroumpf des deux tableaux. Pour calculer le schtroumpf, il faut multiplier
+chaque élément du tableau 1 par chaque élément du tableau 2, et additionner le tout. Par
+exemple si l'on a :
+Tableau 1 : `4|8|7|12`
+Tableau 2 : `3|6`
+Le Schtroumpf sera :
+`3 * 4 + 3 * 8 + 3 * 7 + 3 * 12 + 6 * 4 + 6 * 8 + 6 * 7 + 6 * 12 = 279`
+12. Exercice 6.12
+Ecrivez un algorithme qui permette la saisie d’un nombre quelconque de valeurs, sur le
+principe de l’ex 6.8. Toutes les valeurs
+13. Exercice 6.13
+Ecrivez un algorithme permettant, toujours sur le même principe, à l’utilisateur de saisir
+un nombre déterminé de valeurs. Le programme, une fois la saisie terminée, renvoie la
+plus grande valeur en précisant quelle position elle occupe dans le tableau. On prendra
+soin d’effectuer la saisie dans un premier temps, et la recherche de la plus grande
+valeur du tableau dans un second temps.
+14. Exercice 6.14
+Toujours et encore sur le même principe, écrivez un algorithme permettant, à
+l’utilisateur de saisir les notes d'une classe. Le programme, une fois la saisie terminée,
+renvoie le nombre de ces notes supérieures à la moyenne de la classe.
